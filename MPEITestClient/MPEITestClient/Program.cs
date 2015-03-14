@@ -58,7 +58,7 @@ namespace MPEITestClient
                 bool all = false;
                 Console.WriteLine(DateTime.Now + " action started");
                 //Console.WriteLine("pipe: " + pipeProxy.Install("b4293f64-9e83-4f1f-b2e3-8bdea2a37425", VersionInfo.Parse("1.1.5.0")));
-                Console.WriteLine("pipe: " + pipeProxy.UnInstall("b4293f64-9e83-4f1f-b2e3-8bdea2a37425"));
+                //Console.WriteLine("pipe: " + pipeProxy.UnInstall("b4293f64-9e83-4f1f-b2e3-8bdea2a37425"));
                 Console.WriteLine(DateTime.Now + " action finished");
                 Console.ReadKey();
             }
